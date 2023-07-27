@@ -15,7 +15,7 @@ public class milestone2_5 {
             if(input1[i]<1)continue;
             for (int j=i+1;j<input1.length;j++)if(input1[i]==input1[j])return input1[i];
         }
-        for (int i=input1.length-1;i>=0;i--)if(input1[i]>0)return input1[i];
+        for (int i=0;i<input1.length;i++)if(input1[i]>0)return input1[i];
         return 0;
     }
 }
