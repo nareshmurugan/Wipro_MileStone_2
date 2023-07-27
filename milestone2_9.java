@@ -1,4 +1,3 @@
-
 // 9. PIN=((MAX digit of input1 X MIN digit of input1) + (MAX digit of input2 X MIN digit of input2) + (MAX digit of input3 X MIN digit of input3)) - input 4.
 
 import java.util.Scanner;
