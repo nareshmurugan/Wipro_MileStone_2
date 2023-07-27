@@ -27,8 +27,8 @@ public class milestone2_7 {
     }
 
     public static int Pin(int input1,int input2,int input3,int input4){
-        int evenpos=EvenPos(input1)+EvenPos(input3)+EvenPos(input3);
-        int oddpos=OddPos(input1)+OddPos(input3)+OddPos(input3);
+        int evenpos=EvenPos(input1)+EvenPos(input2)+EvenPos(input3);
+        int oddpos=OddPos(input1)+OddPos(input2)+OddPos(input3);
         if(input4%2==0)return evenpos-oddpos;
         else return oddpos-evenpos;
     }
